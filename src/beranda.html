@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Beranda</title>
+  </head>
+  <body class="bg-[#181a1c]">
+    <!-- navbar section -->
+    <div
+      class="navbar fixed top-0 w-full z-50 bg-[#181a1c] flex justify-between items-center sm:ps-[80px] sm:pe-[80px] sm:py-6 py-1.5 px-5"
+    >
+      <div class="flex items-center sm:gap-11 gap-3 text-white">
+        <div class="flex items-center gap-1">
+          <img
+            class="sm:w-[36px] sm:h-[30px] w-[24px] h-[18px]"
+            src="./assets/movie-open.png"
+            alt=""
+          />
+          <h5 class="text-white text-3xl font-bold mt-1 hidden sm:block">
+            CHILL
+          </h5>
+        </div>
+        <div class="flex items-center sm:gap-11 gap-3 text-[10px] sm:text-[18px]">
+          <a href="">Series</a>
+          <a href="">Film</a>
+          <a href="">Daftar Saya</a>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center justify-center gap-3.5">
+          <img
+            class="sm:w-[40px] sm:h-[40px] w-[20px] h-[20px] rounded-[50px]"
+            src="./assets/avatar-icon.webp"
+            alt=""
+          />
+          <p id="toggle-button" class="text-white text-[16px] rotate cursor-pointer">›</p>
+        </div>
+      </div>
+    </div>
+    <!-- navbar section -->
+
+    <!-- hero section -->
+    <div id="hero" class="hero sm:mt-[91px] mt-0 text-white sm:px-[80px] sm:py-[25px] py-1.5 px-5 opacity-90 relative">
+      <div id="toggle-menu" class="fixed  hidden bg-[#181a1c] right-5 sm:right-[80px] top-[35px] sm:top-[100px] p-1 rounded-sm text-white text-[10px] font-medium">
+        <div class="px-3 py-2 flex items-center gap-1"><img class="w-[16px]" src="./assets/my profile.png" alt=""><span class="text-blue-600">Profil Saya</span></div>
+        <div class="px-3 py-2 flex items-center gap-1"><img class="w-[16px]" src="./assets/star.png" alt=""><span>Ubah Premium</span></div>
+        <a href="index.html" class="px-3 py-2 flex items-center gap-1"><img class="w-[16px]" src="./assets/exit.png" alt=""><span>Keluar</span></a>
+      </div>
+      <div class="sm:mt-56 mt-24">
+        <h1 class="sm:text-5xl text-xl font-bold sm:mb-4 mb-0.5">Duty After School</h1>
+        <p class="sm:w-[668px] w-full mb-4 sm:text-[18px] text-[12px] sm-line-clamp-none line-clamp-2">
+          Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,
+          Departemen Pertahanan mulai merekrut lebih banyak tentara, termasuk
+          siswa sekolah menengah. Mereka pun segera menjadi pejuang garis depan
+          dalam perang.
+        </p>
+        <div class="flex justify-between items-center">
+          <div class="flex gap-2 items-center justify-center">
+            <button
+              class="flex justify-center items-center sm:px-4 sm:py-2 bg-blue-600 rounded-3xl sm:text-[16px] text-[12px] px-3 py-1 "
+            >
+              Mulai
+            </button>
+            <button
+              class="flex justify-center items-center gap-1 sm:px-4 sm:py-2 bg-slate-600 rounded-3xl sm:text-[16px] text-[12px] px-3 py-1"
+            >
+              <p
+                class="flex items-center justify-center rounded-[50px] w-[15px] h-[15px] border border-white"
+              >
+                i
+              </p>
+              Selengkapnya
+            </button>
+            <p
+              class="rounded-[50px] flex items-center justify-center border border-slate-500 text-slate-300 sm:w-[40px] sm:h-[40px] w-[25px] h-[25px] sm:p-0.5 sm:text-[16px] text-[12px] "
+            >
+              18+
+            </p>
+          </div>
+          <div>
+            <p
+              class="rounded-[50px] flex items-center justify-center border border-slate-500 text-slate-300 sm:w-[40px] sm:h-[40px] w-[25px] h-[25px] sm:p-0.5 sm:text-[16px] text-[12px]"
+            >
+              🔇
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero section -->
+
+    <!-- lanjutkan tonton section -->
+    <div class="sm:py-10 sm:px-20 px-5 py-1.5 text-white">
+      <h3 class="sm:text-3xl text-[20px] font-bold mb-4 mt-4">Melanjutkan Tonton Film</h3>
+      <div class="flex justify-between overflow-x-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-5 gap-3 relative">
+        <div
+          class="absolute w-full h-full z-30 sm:flex hidden justify-between items-center"
+        >
+          <p
+            class="flex items-center justify-center -ms-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            ←
+          </p>
+          <p
+            class="flex items-center justify-center -me-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            →
+          </p>
+        </div>
+        <div class="w-[250px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/image 225.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-end p-4 bg-black/40 rounded-lg"
+          >
+            <div class="flex justify-between w-full">
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">Don’t Look Up</p>
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">
+                <span>⭐</span>4.4/5
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[250px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/batman.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-end p-4 bg-black/40 rounded-lg"
+          >
+            <div class="flex justify-between w-full">
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">Batman</p>
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">
+                <span>⭐</span>4.2/5
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[250px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/blue lock.png"
+            alt=""
+          />
+          <div class="absolute inset-0 z-50 flex items-start sm:p-4 p-2 rounded-lg">
+            <p class="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
+              Episode Baru
+            </p>
+          </div>
+          <div
+            class="absolute inset-0 flex items-end p-4 bg-black/40 rounded-lg"
+          >
+            <div class="flex justify-between w-full">
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">Blue Lock</p>
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">
+                <span>⭐</span>4.6/5
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[250px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/called otto.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-end p-4 bg-black/40 rounded-lg"
+          >
+            <div class="flex justify-between w-full">
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">A Man Called Otto</p>
+              <p class="text-white sm:text-[18px] text-[14px] font-bold">
+                <span>⭐</span>4.4/5
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- lanjutkan tonton section -->
+
+    <!-- top rating section -->
+    <div class="sm:py-10 sm:px-20 px-5 py-1.5 text-white">
+      <h3 class="sm:text-3xl text-[20px] font-bold mb-4 mt-4 sm:mt-0">Top Rating Film dan Series Hari ini</h3>
+      <div class="flex justify-between overflow-x-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-6 gap-3 relative">
+        <div
+          class="absolute w-full h-full z-49 sm:flex hidden justify-between items-center"
+        >
+          <p
+            class="flex items-center justify-center -ms-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            ←
+          </p>
+          <p
+            class="flex items-center justify-center -me-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            →
+          </p>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/suzume.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start sm:p-4 p-2 bg-black/40 rounded-lg"
+          >
+            <p class="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
+              Episode Baru
+            </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/jurassic world.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start p-4 bg-black/40 rounded-lg"
+          ></div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/sonic.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start p-4 bg-black/40 rounded-lg"
+          ></div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/all of us are dead.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start sm:p-4 p-2 bg-black/40 rounded-lg"
+          >
+          <p class="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
+            Episode Baru
+          </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/big hero.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start p-4 bg-black/40 rounded-lg"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- top rating section -->
+
+    <!-- film trending -->
+    <div class="sm:py-10 sm:px-20 px-5 py-1.5 text-white">
+      <h3 class="sm:text-3xl text-[20px] font-bold mb-4 mt-4 sm:mt-0">Film Trending</h3>
+      <div class="flex justify-between overflow-x-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-6 gap-3 relative">
+        <div
+          class="absolute w-full h-full z-49 sm:flex hidden justify-between items-center"
+        >
+          <p
+            class="flex items-center justify-center -ms-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            ←
+          </p>
+          <p
+            class="flex items-center justify-center -me-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            →
+          </p>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/the tomorrow.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+            <p
+              class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+            >
+              Top 10
+            </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/quantum.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/guardian.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/called otto.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/little mermaid.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- film trending -->
+
+    <!-- rilis baru section -->
+    <div class="sm:py-10 sm:px-20 px-5 py-1.5 text-white">
+      <h3 class="sm:text-3xl text-[20px] font-bold mb-4 mt-4 sm:mt-0">Rilis Baru</h3>
+      <div class="flex justify-between overflow-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-6 gap-3 relative">
+        <div
+          class="absolute w-full h-full z-49 sm:flex hidden justify-between items-center"
+        >
+          <p
+            class="flex items-center justify-center -ms-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            ←
+          </p>
+          <p
+            class="flex items-center justify-center -me-[20px] w-[40px] h-[40px] rounded-[50px] bg-[#2F3334] cursor-pointer"
+          >
+            →
+          </p>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/little mermaid.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/duty.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start sm:p-4 p-2 bg-black/40 rounded-lg"
+          >
+          <p class="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
+            Episode Baru
+          </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/big hero.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          >
+          <p
+          class="bg-red-800 text-white sm:w-[31px] w-[20px] text-[10px] sm:text-[15px] me-2 sm:p-1 p-0.5 text-center rounded-b-[4px]"
+        >
+          Top 10
+        </p>
+          </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/all of us are dead.png"
+            alt=""
+          />
+
+          <div
+          class="absolute inset-0 flex items-start sm:p-4 p-2 bg-black/40 rounded-lg"
+        >
+        <p class="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
+          Episode Baru
+        </p>
+        </div>
+        </div>
+        <div class="sm:w-[190px] sm:h-[340px] w-[100px] h-[160px] shrink-0 relative">
+          <img
+            class="w-full h-full rounded-lg object-cover"
+            src="./assets/missing.png"
+            alt=""
+          />
+
+          <div
+            class="absolute inset-0 flex items-start justify-end bg-black/40 rounded-lg"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- rilis baru section -->
+
+    <!-- footer -->
+    <div
+      class="sm:px-[80px] sm:py-[60px] sm:mt-[100px] px-5 py-1.5 mt-12 border border-t-slate-500 sm:flex block sm:items-center sm:justify-between"
+    >
+      <div class="sm:mb-0 mb-[15px]">
+        <div class="flex items-center gap-1 ">
+          <img class="sm:w-[36px] sm:h-[30px] w-[18px] h-[17px]" src="./assets/movie-open.png" alt="" />
+          <h5 class="text-white sm:text-3xl text-lg font-bold mt-1">CHILL</h5>
+        </div>
+        <small class="sm:text-sm text-[10px]  text-[#C1C2C4] font-light"
+          >@2023 Chill All Rights Reserved.</small
+        >
+      </div>
+      <div>
+        <p class="text-white sm:text-lg text-[14px] font-bold mb-2.5 flex justify-between items-center sm:block">Genre <span class="block sm:hidden text-[22px]">›</span></p>
+        <div
+          class="sm:flex hidden flex-wrap w-[500px] text-white text-sm font-normal gap-4"
+        >
+          <div>
+            <p>Aksi</p>
+            <p>Anak-anak</p>
+            <p>Anime</p>
+            <p>Britania</p>
+          </div>
+          <div>
+            <p>Drama</p>
+            <p>Fantasi-ilmiah & Fantasi</p>
+            <p>Kejahatan</p>
+            <p>KDrama</p>
+          </div>
+          <div>
+            <p>Komedi</p>
+            <p>Petualangan</p>
+            <p>Perang</p>
+            <p>Romantis</p>
+          </div>
+          <div>
+            <p>Sains & Alam</p>
+            <p>Thriler</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-white sm:text-lg text-[14px] font-bold mb-2.5 flex justify-between items-center sm:block">Bantuan <span class="block sm:hidden text-[22px]">›</span></p>
+        <div class="text-white text-sm font-normal sm:block hidden">
+          <p>FAQ</p>
+          <p>Kontak Kami</p>
+          <p>Privasi</p>
+          <p>Syarat & Ketentuan</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+     <script src="index.js"></script>
+  </body>
+</html>
